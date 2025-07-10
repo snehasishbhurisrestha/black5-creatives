@@ -9,7 +9,7 @@ import ProductPage from './pages/ProductPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/mobile-e-comarce">
       <Header />
       <div className='bg-[url(/bg.png)] relative z-[-1]'>
         <img className='absolute top-0 right-0 h-[500px] w-60 z-[-1]' src="rt-fl.png" alt="" />
