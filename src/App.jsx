@@ -12,11 +12,11 @@ function App() {
     <Router>
       <Header />
       <div className='bg-[url(/bg.png)] relative z-[-1]'>
-        <img className='absolute top-0 right-0 h-[500px] w-60 z-[-1]' src="/rt-fl.png" alt="" />
-        <img className='absolute top-0 left-0 h-[500px] w-60 z-[-1]' src="/lt-fl.png" alt="" />
+        <img className='absolute top-0 right-0 h-[500px] w-60 z-[-1]' src="rt-fl.png" alt="" />
+        <img className='absolute top-0 left-0 h-[500px] w-60 z-[-1]' src="lt-fl.png" alt="" />
 
-        <img className='absolute top-1/2 right-0 h-[500px] w-60 z-[-1]' src="/rm-fl.png" alt="" />
-        <img className='absolute top-1/2 left-0 h-[500px] w-60 z-[-1]' src="/lm-fl.png" alt="" />
+        <img className='absolute top-1/2 right-0 h-[500px] w-60 z-[-1]' src="rm-fl.png" alt="" />
+        <img className='absolute top-1/2 left-0 h-[500px] w-60 z-[-1]' src="lm-fl.png" alt="" />
 
         <Routes>
           <Route path="/" element={<ProductPage />} />
