@@ -12,55 +12,55 @@ const ProductPage = () => {
       id: 1,
       name: "Mayur Mayuri",
       price: "299",
-      image: "/4productpage/2img.png",
+      image: "4productpage/2img.png",
     },
     {
       id: 2,
       name: "Mayur Mayuri",
       price: "299",
-      image: "/4productpage/1img.png",
+      image: "4productpage/1img.png",
     },
     {
       id: 3,
       name: "Mayur Mayuri",
       price: "299",
-      image: "/4productpage/2img.png",
+      image: "4productpage/2img.png",
     },
     {
       id: 4,
       name: "Mayur Mayuri",
       price: "299",
-      image: "/4productpage/1img.png",
+      image: "4productpage/1img.png",
     },
     {
       id: 5,
       name: "Mayur Mayuri",
       price: "299",
-      image: "/4productpage/2img.png",
+      image: "4productpage/2img.png",
     },
     {
       id: 6,
       name: "Mayur Mayuri",
       price: "299",
-      image: "/4productpage/1img.png",
+      image: "4productpage/1img.png",
     },
     {
       id: 6,
       name: "Mayur Mayuri",
       price: "299",
-      image: "/4productpage/2img.png",
+      image: "4productpage/2img.png",
     },
     {
       id: 6,
       name: "Mayur Mayuri",
       price: "299",
-      image: "/4productpage/1img.png",
+      image: "4productpage/1img.png",
     },
     {
       id: 6,
       name: "Mayur Mayuri",
       price: "299",
-      image: "/4productpage/2img.png",
+      image: "4productpage/2img.png",
     },
   ];
   const reviews = [
@@ -78,7 +78,7 @@ const ProductPage = () => {
 
       <section className='flex flex-col w-full justify-center items-center pt-10 pb-5'>
         <div className='h-40 w-40'>
-          <img loading='lazy' src="/4productpage/product-logo.png" alt="" />
+          <img loading='lazy' src="4productpage/product-logo.png" alt="" />
         </div>
         <h1 className='text-white text-6xl'>Premium Phone Case</h1>
         <p className='text-white text-3xl'>We Make The Best Cases For You!</p>
@@ -91,7 +91,7 @@ const ProductPage = () => {
             <div className='h-full bg-[#ebebeb] flex items-center justify-center rounded-l-2xl'>
               <div className=' p-5 rounded-l-2xl h-fit'>
                 <img loading='lazy'
-                  src="/4productpage/2img.png" // replace with actual path
+                  src="4productpage/2img.png" // replace with actual path
                   alt="Mayur Mayuri Case"
                   className="w-[260px] h-auto rounded-xl"
                 />
@@ -102,7 +102,7 @@ const ProductPage = () => {
             <div className='flex flex-col gap-2 bg-[#cccccc] rounded-r-2xl py-5 px-2 h-full justify-between'>
               <div className='flex flex-col justify-center items-center gap-2'>
                 <div className='h-40 w-fit bg-white rounded-full px-3 flex items-center justify-center flex-col gap-2'>
-                  <img loading='lazy' className='h-28 w-fit' src="/4productpage/1img.png" alt="" />
+                  <img loading='lazy' className='h-28 w-fit' src="4productpage/1img.png" alt="" />
                   <div className='h-3 w-3 rounded-full bg-black'></div>
                 </div>
                 <div>
@@ -113,7 +113,7 @@ const ProductPage = () => {
               </div>
               <div className='flex flex-col justify-center items-center gap-2'>
                 <div className='h-40 w-fit bg-white rounded-full px-3 flex items-center justify-center flex-col gap-2'>
-                  <img loading='lazy' className='h-28 w-fit' src="/4productpage/2img.png" alt="" />
+                  <img loading='lazy' className='h-28 w-fit' src="4productpage/2img.png" alt="" />
                   <div className='h-3 w-3 rounded-full bg-black'></div>
                 </div>
                 <div>
@@ -124,7 +124,7 @@ const ProductPage = () => {
               </div>
               <div className='flex flex-col justify-center items-center gap-2'>
                 <div className='h-40 w-fit bg-white rounded-full px-3 flex items-center justify-center flex-col gap-2'>
-                  <img loading='lazy' className='h-28 w-fit' src="/4productpage/1img.png" alt="" />
+                  <img loading='lazy' className='h-28 w-fit' src="4productpage/1img.png" alt="" />
                   <div className='h-3 w-3 rounded-full bg-black'></div>
                 </div>
                 <div>
@@ -263,23 +263,23 @@ const ProductPage = () => {
             <p className='text-white font-semibold'>Secure payment</p>
           </div>
           <div className="flex flex-col items-center text-sm">
-            <img loading='lazy' className='h-15 w-12' src="/4productpage/return.png" alt="" />
+            <img loading='lazy' className='h-15 w-12' src="4productpage/return.png" alt="" />
             <p className="mt-1 text-white">Easy Returns</p>
             <p className='text-white font-semibold'>& Instant Refunds</p>
           </div>
           <div className="flex flex-col items-center text-sm">
-            <img loading='lazy' className='h-15 w-11' src="/4productpage/bage.png" alt="" />
+            <img loading='lazy' className='h-15 w-11' src="4productpage/bage.png" alt="" />
             <p className="mt-1 text-white">100%</p>
             <p className='text-white font-semibold'>Genuine Product</p>
           </div>
           <div className="flex flex-col items-center text-sm">
-            <img loading='lazy' className='h-15 w-11' src="/4productpage/drop.png" alt="" />
+            <img loading='lazy' className='h-15 w-11' src="4productpage/drop.png" alt="" />
             <p className="mt-1 text-white">100%</p>
             <p className='text-white font-semibold'>Time Drop Tested</p>
           </div>
 
           <div className="flex flex-col items-center text-sm">
-            <img loading='lazy' className='h-15 w-11' src="/4productpage/delivery.png" alt="" />
+            <img loading='lazy' className='h-15 w-11' src="4productpage/delivery.png" alt="" />
             <p className="mt-1 text-white">Shipping in</p>
             <p className='text-white font-semibold'>Just 10 Days</p>
           </div>
